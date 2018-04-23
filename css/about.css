@@ -1,0 +1,170 @@
+#about{
+    width: 100%;
+    height: 100%;
+}
+.ab-top{
+    text-align: center;
+    margin-top: 4%;
+}
+.ab-top>p{
+    font-size: 30px ;
+    font-weight: bold;
+}
+.ab-top>span{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.about-fi{
+    margin-bottom: 10px;
+}
+.first-ul{
+    margin-top: 60px;
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+
+}
+.fi-li{
+}
+.fi-li-d{
+    margin-top:30px;
+    margin: 0 auto;
+}
+.left-icon{
+    display: block;
+    width: 45px;
+    height:45px;
+    /*border: 3px solid gray;*/
+    transition: all 0.3s ;
+    background-color: #363940;
+    transform: rotate(45deg);
+
+}
+.left-icon:hover{
+    transform: rotate(90deg);
+
+}
+.left-icon>i{
+    color: white;
+    font-size: 20px;
+    transform: rotate(-45deg);
+    display:inline-block;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    cursor:hand;
+    margin-top: 13px;
+    margin-left:11px;
+}
+
+
+.left-icon:after{
+    content:"";
+    position: absolute;
+    top: 3px;
+    left:3px;
+    right:3px;
+    bottom:3px;
+    border:2px solid #FFF;
+}
+.se-li-d{
+    margin:20px 0 0  0;
+    text-align: center;
+
+}
+.se-li-d>span{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+.se-li-d>p{
+    text-align: center;
+    font: 14px/1.5em "Roboto";
+    padding: 0 10px;
+}
+.our-skills{
+    width: 100%;
+    height: 400px;
+}
+.skills{
+    width: 100%;
+    height:7%;
+    text-align: center;
+    color: #373A41;
+    font-size: 22px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+}
+.our-skill{
+    margin-bottom:-1%;
+    margin-top:2%;
+    /*margin-right: 3%;*/
+    margin-left:5%;
+
+}
+.our-skill>p{
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.progress{
+    width: 100%;
+    height: 20%;
+    border: 2px solid #363940;
+    background-color:white;
+    text-align: center;
+}
+.progress-bar-striped{
+    background-color: gray;
+    margin-left: -15px;
+    text-align: center;
+
+}
+.download{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 36px;
+    margin-left: 70px;
+
+}
+.down-p{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font: 14px/1.5em "Roboto";
+}
+.download-btn{
+    width: 180px;
+    height: 50px;
+    background: #363940;
+    color: #fff !important;
+    font-size: 1.3em;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-left:110px;
+    margin-top: 20px;
+    text-align: center;
+}
+.download-btn>a{
+    color: #fff !important;
+
+}
+.download-btn:hover{
+    background:gray;
+    transition: all 1.5s;
+}
+.download-row{
+    width: 100%;
+    margin-top:15%;
+    box-sizing: border-box;
+    margin-left: -40px;
+    background-color: #F5F5F5;
+}

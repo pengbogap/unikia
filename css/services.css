@@ -1,0 +1,137 @@
+#service{
+    width: 100%;
+    /*height: 100%;*/
+    position: relative;
+    border: 1px solid orange;
+    overflow: hidden;
+}
+.service{
+    text-align: center;
+    margin-top: 60px;
+}
+.service>h2{
+    font-weight: bold;
+}
+.service>span{
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font: 14px/1.5em "Roboto";
+}
+.ser-li{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 80px;
+}
+.ser-fi{
+    position: relative;
+    text-align: center;
+}
+.ser-fi>span{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 36px;
+    border: 1px solid gray;
+    transform: rotate(45deg);
+    display: inline-block;
+    text-align: center;
+    margin:35px 0;
+    transition: all 0.2s ease-in-out;
+    background-color:#363940;
+}
+.ser-fi>span:hover{
+    transform: rotate(90deg);
+}
+.ser-fi span:after{
+    content:"";
+    content: "";
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+    border: 3px solid #FFF;
+}
+.ser-fi>p{
+    font: 14px/1.5em "Roboto";
+    text-align: center;
+}
+.ser-fi i {
+    color: white;
+    font-size: 36px;
+    transform: rotate(-45deg);
+
+    display:inline-block;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    cursor:hand;
+
+}
+
+.ser-fi>i:before{
+    content: "\f040";
+}
+.large{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.large>a{
+    background: #363940;
+    color: #fff;
+    font-size: 1.4em;
+    padding: 10px 80px;
+    position: relative;
+    letter-spacing: 1.5px;
+    border: none;
+    font-weight: 400;
+}
+.large:hover{
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+.cover{
+    background-color: rgba(0, 7, 11, 0.87);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    z-index: 100;
+}
+.cover3{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    color: white;
+    z-index: 100;
+
+
+}
+.cover2{
+    background-image:url("../img/testimonial-bg.jpg");
+    /*background-position: 60% 0px;*/
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    /*top: 280%;*/
+    padding: 20px;
+    z-index: -200;
+}
+.devider{
+    width: 100%;
+    height: 23px;
+    background: url(../img/devider.png) no-repeat center center;
+    margin: 5px 0 10px;
+}
+.page-header-wrapper{
+    text-align: center;
+}
+.corousels{
+    border: 1px solid red;
+}

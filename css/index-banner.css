@@ -1,0 +1,120 @@
+* {
+padding: 0;
+margin: 0;
+}
+a {
+text-decoration: none;
+}
+ul {
+list-style: outside none none;
+}
+.slider, .slider-panel img, .slider-extra {
+width: 850px;
+height: 413px;
+}
+.slider {
+text-align: center;
+margin: 30px auto;
+position: relative;
+}
+.slider-panel, .slider-nav, .slider-pre, .slider-next {
+position: absolute;
+z-index: 8;
+}
+.slider-panel {
+position: absolute;
+}
+.slider-panel img {
+border: none;
+}
+.slider-extra {
+position: relative;
+}
+.slider-nav {
+margin-left: -51px;
+position: absolute;
+left: 50%;
+bottom: 4px;
+}
+.slider-nav li {
+color: #fff;
+cursor:pointer;
+margin: 0 2px;
+overflow: hidden;
+text-align: center;
+display: inline-block;
+height: 18px;
+line-height: 18px;
+width:26px;
+height:26px;
+background-image: url(../img/carousel/hert.png);
+background-size: 26px 26px;
+}
+/*.slider-nav li img {*/
+/*width:25px;*/
+/*height:25px;*/
+/*}*/
+.slider-nav .slider-item-selected {
+width:25px;
+height:25px;
+	background-image:url(../img/carousel/heart.png);
+	background-size:25px 25px;
+}
+.slider-page a{
+background: rgba(0, 0, 0, 0.2);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
+color: #fff;
+text-align: center;
+display: block;
+font-family: "simsun";
+font-size: 22px;
+width: 28px;
+height: 62px;
+line-height: 62px;
+margin-top: -31px;
+position: absolute;
+top: 50%;
+}
+.slider-page a:HOVER {
+background: rgba(0, 0, 0, 0.4);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+}
+.slider-next {
+left: 100%;
+margin-left: -28px;
+}
+/*ÂÖ²¥ÄÚÈÝ*/
+.item{
+	width: 900px;
+	color:white;
+	text-align: center;
+	margin-left: -25px;
+}
+.item h1{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	text-align: center;
+
+}
+.item p{
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-align: center;
+
+}
+.extra-space-l{
+	border: 1px solid white;
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	margin-top: 60px;
+}
+.extra-space-l:hover{
+	border: 2px dashed black;
+	border-radius: 10px;
+	transition: all 0.3s;
+	color: black;
+}

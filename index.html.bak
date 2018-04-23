@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/index-banner.css" rel="stylesheet">
+    <link href="css/services.css" rel="stylesheet">
+    <link href="css/works.css" rel="stylesheet">
+
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+<section id="index">
+    <div class="container">
+        <!--导航-->
+        <img src="img/slider-bg.jpg" alt="" class="con-img"/>
+
+        <div class="top-nav ">
+            <div class="row">
+                <div class="col-xs-3 col-sm-2 col-md-4 col-lg-6 logo">
+                    <img src="img/logo.png" alt=""/>
+                </div>
+                <div class="col-xs-9 col-sm-10 col-md-8 col-lg-6 index-ul ">
+                    <ul>
+                        <li class="index-l"><a href="#">HOME</a></li>
+                        <li class="index-l"><a href="#">ABOUT</a></li>
+                        <li class="index-l"><a href="#">SERVICES</a></li>
+                        <li class="index-l"><a href="#">WORKS</a></li>
+                        <li class="index-l"><a href="#">TEAM</a></li>
+                        <li class="index-l"><a href="#">PRICES</a></li>
+                        <li class="index-l"><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--页面宽度改变时nav的另一种显示方式 (再加上媒体查询 改变li的排列方式)-->
+        <div class="nav-btn"><a href="#"><span class="glyphicon glyphicon-list col-md-6"></span></a></div>
+        <!--导航按钮 点击隐藏-->
+        <div class="change-nav">
+
+            <div class="change-l"><a href="#"><p class="pr">HOME</p></a></div>
+            <div class="change-l"><a href="#"><p>ABOUT</p></a></div>
+            <div class="change-l"><a href="#"><p>SERVICES</p></a></div>
+            <div class="change-l"><a href="#"><p>WORKS</p></a></div>
+            <div class="change-l"><a href="#"><p>TEAM</p></a></div>
+            <div class="change-l"><a href="#"><p>PRICES</p></a></div>
+            <div class="change-l"><a href="#"><p>CONTACT</p></a></div>
+        </div>
+        <!--轮播-->
+        <div class="body-center">
+            <div class="slider">
+                <ul class="slider-main">
+                    <li class="slider-panel">
+                        <a href=" http://www.jb51.net " target="_blank">
+                            <div class="item">
+                                <h1>We have Awesome things</h1>
+
+                                <p>Let's make the web beautiful together</p>
+
+                                <div class="btn btn-blank extra-space-l">View More</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="slider-panel">
+                        <a href=" http://www.jb51.net " target="_blank">
+                            <div class="item">
+                                <h1>Join with us</h1>
+
+                                <p>To the greatest Journey</p>
+
+                                <div class="btn btn-blank extra-space-l">View More</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="slider-panel">
+                        <a href=" http://www.jb51.net " target="_blank">
+                            <div class="item">
+                                <h1>I'm Unika</h1>
+
+                                <p>One Page Responsive Theme</p>
+
+                                <div class="btn btn-blank extra-space-l">View More</div>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+                <div class="slider-extra">
+                    <ul class="slider-nav">
+                        <li class="slider-item"></li>
+                        <li class="slider-item"></li>
+                        <li class="slider-item"></li>
+                    </ul>
+                    <div class="slider-page">
+                        <a class="slider-pre" href="javascript:;;"><</a>
+                        <a class="slider-next" href="javascript:;;">></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section>
+<!--清除a标记的默认事件-->
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="ab-top">
+                <p>ABOUT</p>
+                <span>little information</span>
+            </div>
+        </div>
+        <div class="row about-fi">
+            <div class="first-ul">
+                <!--第一列-->
+
+                <div class="col-md-3 col-sm-6 fi-li">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3 fi-li-d">
+                            <span class="center-block  left-icon"><i class="fa fa-users"></i></span>
+                        </div>
+                        <a href="#">
+                            <div class="col-sm-12 col-md-9 se-li-d">
+                                <span>Who We Are?</span>
+
+                                <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do
+                                    eiusmod tempor incidist.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--第二列-->
+                <div class="col-md-3 col-sm-6 fi-li">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3 fi-li-d">
+                            <span class="center-block  left-icon"><i class="fa fa-diamond"></i></span>
+                        </div>
+                        <a href="#">
+                            <div class="col-sm-12 col-md-9 se-li-d">
+                                <span>Who We Are?</span>
+
+                                <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do
+                                    eiusmod tempor incidist.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--第三列-->
+                <div class="col-md-3 col-sm-6 fi-li">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3 fi-li-d">
+                            <span class="center-block  left-icon"><i class="fa fa-heart"></i></span>
+                        </div>
+                        <a href="#">
+                            <div class="col-sm-12 col-md-9 se-li-d">
+                                <span>Who We Are?</span>
+
+                                <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do
+                                    eiusmod tempor incidist.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--第四列-->
+                <div class="col-md-3 col-sm-6 fi-li">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3 fi-li-d">
+                            <span class="center-block  left-icon"><i class="fa fa-clock-o"></i></span>
+                        </div>
+                        <a href="#">
+                            <div class="col-sm-12 col-md-9 se-li-d">
+                                <span>Who We Are?</span>
+
+                                <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do
+                                    eiusmod tempor incidist.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!--end-->
+                <div class="our-skills">
+                    <div class="row skill">
+                        <div class="col-xs-12 skills">Our Skills</div>
+                        <div class="col-xs-12 col-sm-5  col-lg-5 our-skill">
+                            <p>Photo & Illustrator</p>
+
+                            <div class="col-xs-12 col-sm-6 progress">
+                                <div class="progress-bar progress-bar-striped active" style="width:75%">75%</div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-5  col-lg-5 our-skill">
+                            <p>WordPress</p>
+
+                            <div class="col-xs-12 col-sm-6 progress">
+                                <div class="progress-bar progress-bar-striped active" style="width:85%">85%</div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-5  col-lg-5 our-skill">
+                            <p>HTML & CSS</p>
+
+                            <div class="col-xs-12 col-sm-6 progress">
+                                <div class="progress-bar progress-bar-striped active" style="width:95%">95%</div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-5  col-lg-5 our-skill">
+                            <p>JavaScript</p>
+
+                            <div class="col-xs-12 col-sm-6 progress">
+                                <div class="progress-bar progress-bar-striped active" style="width:70%">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row download-row ">
+                    <div class="col-xs-12 col-xs-offset-1 col-md-12 col-lg-8 download">
+                        <p>Download Our Pdf</p>
+
+                        <p class="down-p">Inspired by nature, follow technology, appreciate the classics.
+                            You can build modern & professional websites with Unika. The possibilities are just
+                            endless.</p>
+                    </div>
+                    <div class="col-xs-12  col-md-12 col-lg-1 download-btn">
+                        <a href="#"><span class="btn">DOWNLOAD</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</section>
+<section id="services">
+    <div class="container">
+        <div class="row service">
+            <div class="col-xs-12">
+                <h2>SERVICES</h2>
+                <span>what we really know how</span>
+            </div>
+        </div>
+        <div class="row ser-li">
+            <div class="col-sm-6 col-md-3 ser-fi">
+                <span class="lingxing animated flash"><i class="fa fa-mobile"></i></span>
+                <a href="#"><h4>App　Development</h4>
+
+                    <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor
+                        incidist.</p></a>
+            </div>
+
+            <div class="col-sm-6 col-md-3 ser-fi">
+                <span class="lingxing animated flash"><i class="fa fa-pie-chart"></i></span>
+                <a href="#"><h4>Ui Design</h4>
+
+                    <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor
+                        incidist.</p></a>
+            </div>
+
+            <div class="col-sm-6 col-md-3 ser-fi">
+                <span class="lingxing animated flash"><i class="fa fa-cloud"></i></span>
+                <a href="#"><h4>Cloud Hosting</h4>
+
+                    <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor
+                        incidist.</p></a>
+            </div>
+
+            <div class="col-sm-6 col-md-3 ser-fi">
+                <span class="lingxing animated flash"><i class="fa fa-pencil"></i></span>
+                <a href="#"><h4>Coding Pen</h4>
+
+                    <p>Lorem ipsum dolor sit amet set, consectetur utes anet adipisicing elit, sed do eiusmod tempor
+                        incidist.</p></a>
+            </div>
+        </div>
+
+        <div class="large"><a href="#">Large Button</a></div>
+        <div class="cover2">
+
+            <div class="cover"></div>
+
+
+            <div class="cover3">
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown animated">
+                            <h2>Reviews</h2>
+
+                            <div class="devider"></div>
+                            <p class="subtitle">What people say about us</p>
+                        </div>
+                        <div class="corousels">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<section id="works">
+    <div class="works">
+        <div class="container">
+            <div class="row">
+                <div class="workHeader">
+                    <h2>Our Works</h2>
+
+                    <p class="subtitle">What we are proud of</p>
+                </div>
+            </div>
+            <div class="pro-menu">
+                <ul>
+                    <li><a href="#" id="all">ALL</a></li>
+                    <li><a href="#" id="websites">WEBSITES</a></li>
+                    <li><a href="#" id="webdesign">WEB DESIGN</a></li>
+                    <li><a href="#" id="appsdev">APPS DEVELOPMEMT</a></li>
+                    <li><a href="#" id="graphic">GRAPHIC DESIGN</a></li>
+                    <li><a href="#" id="responsive">RESPONSIVE</a></li>
+                </ul>
+            </div>
+
+            <div class="pro-content">
+                <div class="row">
+                    <ul>
+                        <li class="col-xs-12 col-sm-4 pro-l websites"><img src="img/portfolio/p1.jpg" alt="" class="pro-l-i"/><div class="webs">
+                            <p>SKULL AWESOME</p>
+                            <span>SUBTITLE</span>
+                        </div></li>
+                        <li class="col-xs-12 col-sm-4 pro-l webdesign"><img src="img/portfolio/p2.jpg" alt=""/></li>
+                        <li class="col-xs-12 col-sm-4 pro-l appsdev"><img src="img/portfolio/p3.jpg" alt=""/></li>
+                        <li class="col-xs-12 col-sm-4 pro-l graphic"><img src="img/portfolio/p4.jpg" alt=""/></li>
+                        <li class="col-xs-12 col-sm-4 pro-l responsive"><img src="img/portfolio/p5.jpg" alt=""/></li>
+                        <li class="col-xs-12 col-sm-4 pro-l appsdev"><img src="img/portfolio/p6.jpg" alt=""/></li>
+                        <li class="col-xs-12 col-sm-4 pro-l responsive"><img src="img/portfolio/p7.jpg" alt=""/></li>
+                        <li class="col-xs-12 col-sm-4 pro-l webdesign"><img src="img/portfolio/p8.jpg" alt=""/></li>
+                        <li class="col-xs-12 col-sm-4 pro-l websites"><img src="img/portfolio/p9.jpg" alt=""/></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/index-banner.js"></script>
+<script src="js/works.js"></script>
+<script src="js/ajax.js"></script>
+<script>
+</script>
+</body>
+</html>
